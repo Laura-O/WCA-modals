@@ -26,6 +26,7 @@ The (important) difference are the units how the results are measured:
     * e.g setting the format of the round to "Average of 5 / Best of 1" is not possible
 * The cutoff time must not be higher than the time limit.
 * It's not a official standard to write the round formats with a "`/`", but I think it's an international unofficial standard. :-)
+* Rounds must have a time limit, but cutoffs are optional. So it might make sense to force users to choose a round format and a time limit first.
 
 ### Advance conditions
 * Percentile `<=` 75% (defined by regs)
@@ -42,6 +43,7 @@ Set the time limit for an individual attempts (default selection):
 
 #### Cumulative Time limit
 Set a cumulative time limit. To clarify that this is a cumulative time limit for a single round, the name of the round is shown below.
+"Sharing" might be cofusing if it the cumulative limit is used for only one round, but I couldn't find a better solution how to combine the two options. 
 
 <img src="images/time-limit-cumulative-1.png" width="600">
 
@@ -56,7 +58,7 @@ The default selection is "None", which means that no cutoff was set for the roun
 <img src="images/cutoff1.png" width="600">
 
 #### Choose a format
-To change this, the format of the combined round has to be chosen. The right side represents the format that was chosen for the round:
+To change this, the format of the combined round has to be chosen. The right side represents the format that was chosen for the round (in the time limit form):
 
 <img src="images/cutoff-choose-format.png" width="600">
 
