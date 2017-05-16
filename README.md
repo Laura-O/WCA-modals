@@ -17,7 +17,7 @@ The (important) difference are the units how the results are measured:
 * MultiBLD: points
 * FMC: moves
 
-## Some restriscitons and conditions
+## Some restrictions and conditions
 ### Time Limits
 * Default time limit is 10 minutes for speed events
 
